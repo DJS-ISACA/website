@@ -1,12 +1,22 @@
 import React from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
     <div className="inline-flex w-screen space-x-24 items-center justify-center px-10 pt-16 pb-5">
-      <p className="w-20   text-sm font-medium tracking-wider leading-tight text-center text-white uppercase">
+      <Link
+        href="#"
+        className="link w-20 text-sm font-medium tracking-wider leading-tight text-center text-white uppercase"
+      >
+        ABOUT
+      </Link>
+      <Link
+        href="#"
+        className="link w-20 text-sm font-medium tracking-wider leading-tight text-center text-white uppercase"
+      >
         Team
-      </p>
-      <div className="h-20  rounded-lg">
+      </Link>
+      <div className="h-20 rounded-lg">
         <svg
           width="78"
           height="50"
@@ -40,9 +50,18 @@ const Navbar = () => {
           />
         </svg>
       </div>
-      <p className="w-20 text-sm font-medium tracking-wider leading-tight text-center text-white uppercase">
+      <Link
+        href="#"
+        className="link w-20 text-sm font-medium tracking-wider leading-tight text-center text-white uppercase"
+      >
         SPONSOR
-      </p>
+      </Link>
+      <Link
+        href="#"
+        className="link w-20 text-sm font-medium tracking-wider leading-tight text-center text-white uppercase"
+      >
+        CONTACT
+      </Link>
     </div>
   );
 };

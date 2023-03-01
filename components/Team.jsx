@@ -1,54 +1,67 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+
+// import required modules
+import { EffectCoverflow, Pagination } from "swiper";
 
 const Team = () => {
   return (
-    <section className="w-full flex flex-col pt-20  px-20 items-center">
+    <section className=" flex flex-col pt-20  gap-20 px-20 items-center">
       <p className="text-5xl font-bold tracking-widest text-center text-black uppercase">
-        main direction in achieving the goals
+        Welcome starts with “we.”
       </p>
-      <section className="w-full pt-16 items-center">
-        <div className="w-full flex flex-col gap-10">
-          <div className="inline-flex flex-col h-10 overflow-hidden space-y-2.5 items-start justify-start">
-            <div className="inline-flex h-10 space-x-2.5 items-center justify-start">
-              <div className="w-6 h-0.5 bg-black"></div>
-              <p className="text-xl leading-7 font-semibold text-black uppercase">
-                a unified view of the customer
-              </p>
-            </div>
-            <p className="w-80 text-base leading-relaxed text-black">
-              Accelerate innovation with microservices, open APIs and
-              graph-based metadata manage to accelerate innovation across a wide
-              range of use cases.
-            </p>
-          </div>
-          <div className="inline-flex flex-col h-10 overflow-hidden space-y-2.5 items-start justify-start">
-            <div className="inline-flex h-10 space-x-2.5 items-center justify-start">
-              <div className="w-6 h-0.5 bg-black"></div>
-              <p className="text-xl leading-7 font-semibold text-black uppercase">
-                a unified view of the customer
-              </p>
-            </div>
-            <p className="w-80 text-base leading-relaxed text-black">
-              Accelerate innovation with microservices, open APIs and
-              graph-based metadata manage to accelerate innovation across a wide
-              range of use cases.
-            </p>
-          </div>
-          <div className="inline-flex flex-col h-10 overflow-hidden space-y-2.5 items-start justify-start">
-            <div className="inline-flex h-10 space-x-2.5 items-center justify-start">
-              <div className="w-6 h-0.5 bg-black"></div>
-              <p className="text-xl leading-7 font-semibold text-black uppercase">
-                a unified view of the customer
-              </p>
-            </div>
-            <p className="w-80 text-base leading-relaxed text-black">
-              Accelerate innovation with microservices, open APIs and
-              graph-based metadata manage to accelerate innovation across a wide
-              range of use cases.
-            </p>
-          </div>
-        </div>
-      </section>
+      <Swiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"3"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        }}
+        loop={true}
+        pagination={false}
+        autoplay={true}
+        modules={[EffectCoverflow, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+        </SwiperSlide>
+      </Swiper>
     </section>
   );
 };
