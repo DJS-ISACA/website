@@ -35,31 +35,49 @@ const Team = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <img src="assets\IMG_2869.HEIC" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <img src="assets\IMG_3420.HEIC" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <img src="assets\IMG_3422.HEIC" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          <img src="assets\IMG_3436.HEIC" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          <img src="assets\IMG_3445.HEIC" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          <img src="assets\IMG_3457.HEIC" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          <img src="assets\IMG_3463.HEIC" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          <img src="assets\IMG_3465.HEIC" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          <img src="assets\IMG_3479.HEIC" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="assets\IMG_3577.HEIC" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="assets\IMG_3582.HEIC" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="assets\IMG_3479.HEIC" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="assets\IMG_3586.HEIC" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="assets\IMG_3595.HEIC" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="assets\IMG_3601.HEIC" />
         </SwiperSlide>
       </Swiper>
     </section>

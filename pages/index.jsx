@@ -10,7 +10,7 @@ export default function Home() {
         <Navbar />
         <Header />
       </section>
-      {/* <About />
+     {/* <About />
       <Team /> */}
     </>
   );
