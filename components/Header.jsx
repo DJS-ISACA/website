@@ -66,16 +66,16 @@ const Header = () => {
           />
         </svg>
 
-        <p className="flex-1 logo_font text-6xl tracking-widest leading-10 text-center text-white">
+        <p className="flex-1 logo_font text-6xl tracking-widest leading-10 text-center text-white pl-11">
           SECURITY
         </p>
       </div>
-      <div className="inline-flex items-center justify-start ">
+      <div className="inline-flex items-center justify-start">
         <div className="flex flex-1 space-x-2.5 items-start justify-start">
           <div className="w-6 h-0.5 bg-white my-4"> </div>
           <p className="text-xl leading-9 text-white">
             Exploring cutting-edge technologies and their applications through a
-            combination of workshops, lectures, and hands-on projects.
+            combination of workshops, lectures, and projects.
           </p>
         </div>
         <div className="inline-flex flex-1 flex-col items-end justify-center">
