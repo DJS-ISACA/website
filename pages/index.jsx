@@ -6,12 +6,12 @@ import Team from "./../components/Team";
 export default function Home() {
   return (
     <>
-      <section className="header h-screen flex flex-col">
+      <section className="header h-screen flex flex-col overflow-hidden">
         <Navbar />
         <Header />
       </section>
-      <About />
-      <Team />
+      {/* <About />
+      <Team /> */}
     </>
   );
 }
