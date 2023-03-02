@@ -79,12 +79,13 @@ const Header = () => {
           </p>
         </div>
         <div className="inline-flex flex-1 flex-col items-end justify-center">
-          <Link
-            href="#"
+          <a
+            href="/teaser.mp4"
+            target="_blank"
             className="inline-flex hover:border-white hover:text-white hover:bg-black transition-all duration-300 border-white items-start justify-start px-20 py-6 bg-white border text-base font-semibold leading-tight text-center uppercase"
           >
-            Subscribe to our events
-          </Link>
+            Teaser
+          </a>
         </div>
       </div>
     </section>
