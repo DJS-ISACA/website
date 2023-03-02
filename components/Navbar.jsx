@@ -5,13 +5,13 @@ const Navbar = () => {
   return (
     <div className="inline-flex w-screen space-x-24 items-center justify-center px-10 pt-16 pb-5">
       <Link
-        href="#"
+        href="/soon"
         className="link w-20 text-sm font-medium tracking-wider leading-tight text-center text-white uppercase"
       >
         ABOUT
       </Link>
       <Link
-        href="#"
+        href="/soon"
         className="link w-20 text-sm font-medium tracking-wider leading-tight text-center text-white uppercase"
       >
         Team
@@ -51,13 +51,13 @@ const Navbar = () => {
         </svg>
       </div>
       <Link
-        href="#"
+        href="/soon"
         className="link w-20 text-sm font-medium tracking-wider leading-tight text-center text-white uppercase"
       >
         SPONSOR
       </Link>
       <Link
-        href="#"
+        href="/soon"
         className="link w-20 text-sm font-medium tracking-wider leading-tight text-center text-white uppercase"
       >
         CONTACT
