@@ -19,7 +19,7 @@ const Header = () => {
           CYBER
         </p>
 
-        <div className="hero grid grid-flow-row grid-cols-3 gap-2">
+        <div className="hero grid grid-flow-row grid-cols-3 gap-2 opacity-0">
           <svg
             width="97"
             height="96"
