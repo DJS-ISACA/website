@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily:{
+      'chakrapetch':['Chakra Petch','sans-serif']
+    }
   },
   plugins: [],
 }

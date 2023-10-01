@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import About from "../components/About";
 import Team from "./../components/Team";
+import Sponsors from "./../components/Sponsors"
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Navbar />
         <Header />
       </section>
+      <Sponsors/>
       {/* <About />
       <Team /> */}
     </>
